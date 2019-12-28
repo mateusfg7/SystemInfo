@@ -413,7 +413,7 @@ var dtjava = function() {
        var protocols = ["http://", "https://", "file://"];
        for (var i=0; i < protocols.length; i++){
          if(url.toLowerCase().startsWith(protocols[i])){
-         	return true;;
+         	return true;
 	 }
        }
        return false;
